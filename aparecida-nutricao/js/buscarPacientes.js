@@ -18,7 +18,7 @@ botaoAdicionar.addEventListener("click", function() {
 
   // Abre uma conexão com o endereço que queremos trabalhar,
   // nesse caso, o http://api-pacientes.herokuapp.com/pacientes
-  xhr.open("GET", "http://api-pacientes.herokuapp.com/pacientes");
+  xhr.open("GET", "../json/pacientes.json");
 
   // Adiciona um evento que executa ao receber todos os dados do endereço
   xhr.addEventListener("load", function() {
